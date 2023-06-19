@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Libre+Barcode+EAN13+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+.c-wrapper {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.c-header {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+.c-header h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.c-container {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+.c-name {
+    font-size: 2rem;
+    font-family: 'Condiment', cursive;
+}
+
+.c-options {
+    display: flex;
+    flex-direction: row;
+}
+
+.in {
+    margin-top: 50px;
+    margin-right: 20px;
+    transition: .5s all ease;
+}
+
+.in:hover {
+    translate: 0px -5px;
+    
+}
+
+
+.c-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    transition: .5s all ease;
+}
+
+.c-option:hover {
+    translate: 0px -5px;
+}
+
+.c-option:hover .c-icon {
+    box-shadow: 0px 0px 10px rgba(207, 178, 150, 0.6);
+}
+
+.in:hover .c-icon2 {
+    box-shadow: 0px 0px 10px rgba(207, 178, 150, 0.6);
+}
+
+.c-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    margin-right: 20px;
+    background-color: var(--body-color);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: .5s all ease;
+}
+
+.c-icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    background-color: var(--body-color);
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.c-icon i {
+    color: var(--text-color);
+}
+
+.c-info h1{
+    font-size: 1.5rem;
+}
+
+.c-info h3 {
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@media screen and (max-width: 480px) {
+
+    .c-header {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    
+    .c-name {
+        font-size: 2rem;
+        font-family: 'Condiment', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c-option {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .c-option:hover {
+        translate: 0px 0px;
+        
+    }
+
+    .c-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .in {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .in:hover {
+        translate: 0px 0px;
+    }
+
+    .c-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        margin-right: 0;
+    }
+
+    .c-icon2 {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        margin-right: 0;
+    }
+
+    .c-info {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-top: 10px;
+    }
+
+    .c-info h1{
+        font-size: 1.3rem;
+    }
+    
+    .c-info h3 {
+        font-weight: 100;
+        color: rgb(97, 97, 97);
+        font-size: 1rem;
+    }
+    
+}

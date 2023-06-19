@@ -1,0 +1,163 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; 
+    background-color: var(--body-color);
+    transition: all 1s ease;
+    border-width: 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.n-wrapper-border {
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.n-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    margin-left: 5%;
+}
+
+.chlogo {
+    height: 60px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.chlogo:hover {
+
+    -webkit-animation: rotate-center .8s ease-in-out both;
+	        animation: rotate-center .8s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+.n-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-right: 5%;
+}
+
+.list {
+    flex: 10;
+}
+
+.list>ul {
+    display: flex;
+    gap: 1rem;
+    margin-right: 4rem;
+    font-weight: 600;
+}
+
+.n-link {
+    color: var(--text-color);
+    padding: 5px 20px;
+    transition: .3s all ease;
+    border-radius: 20px;
+    cursor: pointer;
+    
+
+}
+
+.n-link:hover {
+    box-shadow: 0px 0px 10px rgba(207, 178, 150, 0.6);
+    
+}
+
+
+
+.nav-btn {
+    padding: 5px 20px;
+    
+    border-style: solid;
+    border-color: var(--text-color);
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: .5s all ease;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.nav-btn:hover {
+    background-color: var(--text-color);
+    color: white;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.menu-btn {
+    background-color: transparent;
+    visibility: hidden;
+    font-size: 1.8rem;
+    color: red;
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+  
+    .list {
+        display: none;
+    }
+
+    .nav-btn {
+    }
+}
+
+/*@media screen and (max-width: 1024px) {
+    .menu-btn {
+        visibility: visible;
+    }
+
+    .n-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: 1s all ease;
+    }
+
+    .list>ul {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .responsive_nav {
+        transform: none;
+    }
+
+    .menu-close-btn {
+
+    }
+
+
+}*/
+
+
+

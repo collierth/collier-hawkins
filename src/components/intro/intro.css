@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+.intro {
+    display: flex;
+    height: 90vh;
+    margin-top: 25vh;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1)
+{
+    font-size: 4rem;
+    font-family: 'Condiment', cursive;
+}
+
+.i-name>:nth-child(2)
+{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.i-name>:nth-child(3)
+{
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.i-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 2.5rem;
+    
+    
+}
+
+.i-icons>*{
+    text-decoration: none;
+    transition: .5s all ease;
+}
+
+.i-icons>*:hover {
+    translate: 0px -5px;
+}
+
+.i-icons i {
+    color: var(--text-color);
+}
+
+.i-right {
+    display: flex;
+    justify-content: center;
+}
+
+.i-pic {
+    width: 300px;
+    height: 300px;
+    background: url(me.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(10%) contrast(0.8);
+}
+
+@media screen and (max-width: 480px) {
+
+    .intro {
+        flex-direction: column-reverse;
+        margin-top: 15vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 500px;
+    }
+
+    .i-pic {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    
+    .i-name {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .i-name>:nth-child(1)
+    {
+        font-size: 2rem;
+        font-family: 'Condiment', cursive;
+    }
+
+    .i-name>:nth-child(2)
+    {
+        font-size: 2rem;
+    }
+
+    .i-name>:nth-child(3)
+    {
+        font-size: 1.3rem;
+    }
+    
+    .i-icons {
+        font-size: 1.7rem;
+        justify-content: center;
+        align-items: center;
+    }
+}

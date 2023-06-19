@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   
@@ -6,11 +6,12 @@
 
   --title-color: ;
   --title-color-dark: ;
-  --text-color: ;
-  --body-color: ;
+  --text-color: rgb(50, 50, 50);
+  --body-color: white;
   --container-color: ;
 
   --body-font: "Poppins", sans-serif;
+  --btn-color: #4665ff;
 
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
@@ -95,4 +96,10 @@ button {
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+  }
 }
