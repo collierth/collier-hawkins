@@ -9,7 +9,7 @@ const Resumebar = () => {
                 <span>I'm a <b>results-driven</b> developer itching to contribute to the development of <b>cutting-edge</b> software products.</span>
             </div>
             <div className="r-right">
-                <a href="assets/TEST-RESUME.pdf" target="_blank"><button className="res-btn">View My Resume</button></a>
+                <a href="assets/CollierHawkins.Resume.2023.v4.pdf" target="_blank"><button className="res-btn">View My Resume</button></a>
             </div>
         </div>
     </div>
