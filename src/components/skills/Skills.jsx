@@ -40,16 +40,7 @@ const Skills = () => {
                         <li>AWS</li>
                         <li>UNIX</li>
                         <li>Figma</li>
-                        <li>Adobe XD</li>
-                    </ul>
-                </div>
-                <div className="skillbox">
-                    <h1>Soft Skills</h1>
-                    <ul>
-                        <li>Leadership</li>
-                        <li>Adaptibility</li>
-                        <li>Problem Solver</li>
-                        <li>Critical Thinker</li>
+                        <li>Adobe Creative Suite</li>
                     </ul>
                 </div>
             </div>

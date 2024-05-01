@@ -3,9 +3,17 @@
 
 
 .p-wrapper {
-    margin-top: 6rem;
-    margin-bottom: 15%;
+    margin-bottom: 10vh;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: 0vh;
+    animation-range-end: 50vh;
 }
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
 
 .p-header {
     margin-left: 17.5%;
@@ -24,7 +32,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    
 }
+    
 
 .container {
     width: 65%;

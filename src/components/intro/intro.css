@@ -4,11 +4,9 @@
 
 .intro {
     display: flex;
-    height: 90vh;
     margin-top: 25vh;
     margin-left: 17.5%;
     margin-right: 17.5%;
-
 }
 
 .i-left {

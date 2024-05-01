@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
 
 .c-wrapper {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 0vh;
+    height: 80vh;
+}
+
+.c-mid {
+    position: sticky;
+    top: 20vh
 }
 
 .c-header {
