@@ -12,9 +12,9 @@ const Projects = () => {
                 <a href="https://www.figma.com/proto/y9lTYATbe8dl3SDIcak8ba/Luxuriant?type=design&node-id=3-22&t=qXDlSZaLhHzax65P-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1&mode=design" target="_blank" className="content">
                     <img src="assets/plants4.png" alt=''></img>
                     <div className="info">
-                        <h1>Water Me!</h1>
+                        <h1>Luxuriant & Water Me!</h1>
                         <p>A mobile application that reminds you to water your plants.</p>
-                        <span>Flutter&nbsp;&nbsp;Agile Methodology&nbsp;&nbsp;sqflite</span>
+                        <span>Figma&nbsp;&nbsp;Flutter&nbsp;&nbsp;Agile Methodology&nbsp;&nbsp;sqflite</span>
                     </div>
                 </a>
                 <a href="http://3.22.117.94/wp-content/wp-fp/home.php" target="_blank" className="content">
